@@ -1,4 +1,4 @@
-# simple-django-project
+# Python-docker-project
 ## Installation
 
 ### Prerequisites
