@@ -25,7 +25,7 @@ SECRET_KEY = '3xb%+*2uex+%1&$@=*+(@^atnm!#tz-n&i5qn$o46jnp&u*2l^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["c9ae666b.ngrok.io", "localhost"]
+ALLOWED_HOSTS = ["c9ae666b.ngrok.io", "13.200.215.66"]
 
 
 # Application definition
@@ -88,8 +88,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'world',
         'USER': 'root',
-        'PASSWORD': 'xxxx',
-        'HOST': 'localhost',
+        'PASSWORD': 'Root123',
+        'HOST': '13.200.215.66',
         'PORT': '3306',
     }   
 }
@@ -142,9 +142,9 @@ AUTH_USER_MODEL = 'world.User'
 LOGIN_URL = 'signup'
 
 # email configurations
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'xxxx'
-EMAIL_HOST_PASSWORD = 'xxxx'
-EMAIL_PORT = 587
+#EMAIL_USE_TLS = True
+#EMAIL_HOST = 'smtp.gmail.com'
+#EMAIL_HOST_USER = 'xxxx'
+#EMAIL_HOST_PASSWORD = 'xxxx'
+#EMAIL_PORT = 587
 
