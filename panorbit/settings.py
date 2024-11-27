@@ -25,7 +25,7 @@ SECRET_KEY = '3xb%+*2uex+%1&$@=*+(@^atnm!#tz-n&i5qn$o46jnp&u*2l^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["c9ae666b.ngrok.io", "13.200.215.66"]
+ALLOWED_HOSTS = ["c9ae666b.ngrok.io", "13.233.159.194"]
 
 
 # Application definition
@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'world',
         'USER': 'root',
         'PASSWORD': 'Root123',
-        'HOST': '13.200.215.66',
+        'HOST': '13.233.159.194',
         'PORT': '3306',
     }   
 }
